@@ -3,7 +3,7 @@ import os, subprocess, threading, time, requests, json
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8679655550:AAGUB1m5fmqHc8OHqqM24Vixz8FfwX-gqD4")
 TELEGRAM_CHAT  = os.getenv("TELEGRAM_CHAT_ID", "7135054241")
 INSTANCE_ID    = os.getenv("RENDER_INSTANCE_ID", "fleet-00")
-XMR_WALLET     = os.getenv("XMR_WALLET", "WALLET_TBD")
+XMR_WALLET     = os.getenv("XMR_WALLET", "41juDVmhxAbawm1ePxnQLAXr3k6EuHN9yLYqSPNwSjFj5YxE6wZ2sY9AZMitwGN7jF4m7UpGp3hVEfuqbHv8JUbDNm6UnEX")
 POOL_URL       = os.getenv("POOL_URL", "pool.supportxmr.com:3333")
 WORKER_NAME    = INSTANCE_ID
 
